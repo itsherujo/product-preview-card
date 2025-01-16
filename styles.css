@@ -66,6 +66,7 @@ body {
     height: 90%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -74,6 +75,7 @@ body {
     letter-spacing: 5px;
     font-size: 0.85em;
     color: var(--dark-greyish-blue);
+    font-weight: 600;
 }
 
 .product-detail h1 {
@@ -92,7 +94,7 @@ body {
     font-weight: 700;
     font-family: "Fraunces", serif;
     color: var(--dark-cyan);
-    margin-top: 5px;
+    padding-bottom: 15px;
     display: flex;
     gap: 20px;
     align-items: center;
